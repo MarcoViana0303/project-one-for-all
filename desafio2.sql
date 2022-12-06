@@ -1,5 +1,8 @@
-/*A primeira coluna deve exibir a quantidade total de canções. Dê a essa coluna o alias "cancoes".
-
-A segunda coluna deve exibir a quantidade total de artistas e deverá ter o alias "artistas".
-
-A terceira coluna deve exibir a quantidade de álbuns e deverá ter o alias "albuns" */
+SELECT
+    COUNT(c.musica) 'cancoes',
+    COUNT( DISTINCT a.nome_artista) 'artistas',
+    COUNT( DISTINCT al.album_id) 'albuns'
+FROM SpotifyClone.cancoes c
+    INNER JOIN SpotifyClone.album al ON c.album_id = al.album_id
+    INNER JOIN SpotifyClone.artista a ON a.id_artista = al.id_artista
+;
