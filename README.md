@@ -28,7 +28,7 @@ Em resumo, normalizei uma tabela na terceira forma normal e pude acessar as info
 - `docker-compose`
 - `MySql`
 
-</details>
+</details><br />
 
 Clone o projeto
 
