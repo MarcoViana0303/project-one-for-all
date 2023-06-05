@@ -3,7 +3,7 @@
 
 Neste projeto, utilizei uma tabela para revisar e consolidar todos os principais conceitos SQL vistos até o momento.
 
-Recebi uma tabela não normalizada que necessitava ser normalizada e populada para que eu possa executar queries com o intuito de encontrar as informações solicitadas.
+Recebi uma tabela que necessitava ser normalizada e populada para que eu pudesse executar queries com o intuito de encontrar as informações solicitadas.
 
 Em resumo, normalizei uma tabela na terceira forma normal e pude acessar as informações desta tabela através de queries utilizando SQL.
 
