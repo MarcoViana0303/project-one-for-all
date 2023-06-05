@@ -30,6 +30,11 @@ Em resumo, normalizei uma tabela na terceira forma normal e pude acessar as info
 
 </details><br />
 
+## Tabela não normalizada na qual foi utilizada
+![Tabela não normalizada](./non-normalized-tables.png)
+
+<br />
+
 Clone o projeto
 
 ```bash
